@@ -17,7 +17,6 @@ class Chapter3Examples{
 		// Chapter 3, arithmetic operator practice.
 		p1.c03ArithmeticOperatorPracticeMain();
 		
-		System.out.println((int)-0.4);
 		// Chapter 3, label practice.
 		p2.c03LabelPracticeMain();
 		return;
