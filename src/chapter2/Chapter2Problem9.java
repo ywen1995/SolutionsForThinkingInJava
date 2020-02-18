@@ -1,9 +1,15 @@
 /* Practice for Chapter 2, Problem 9 for "Thinking in Java (2nd Edition)".
- * Codes created Feb 2020.*/
+ * Codes created by ywen.
+ * Feb 2020.
+ * */
+
+
+package chapter2;
 
 import java.util.*;
  
 class Chapter2Problem9{	
+	
 	public static void main(String args[]) {	
 		// Initialization 
 		AllTheColorsOfTheRainbow a0 = new AllTheColorsOfTheRainbow();
@@ -39,3 +45,4 @@ class AllTheColorsOfTheRainbow{
 	}
 	
 }
+
