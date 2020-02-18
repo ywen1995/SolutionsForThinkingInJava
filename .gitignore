@@ -1,0 +1,6 @@
+ # Ignore unnecessary build files.
+/bin/*
+/.settings/*
+.DS_Store
+.classpath
+.project
