@@ -10,18 +10,17 @@ import java.util.*;
 
 public class Chapter4Problems {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-	    Object testObject;
-		// Problem 1 to 4
-		Problem1To4.localMain();
+        Object testObject;
+        // Problem 1 to 4
+        Problem1To4.localMain();
 		
-		// Problem 9 to 10
-		testObject = new Problem9To10();
-		((Problem9To10) testObject).localMain(); // Need a type conversion here since there's no "localMain" method in class "Object".
-		
-		
-		return;
+        // Problem 9 to 10
+        testObject = new Problem9To10();
+        ((Problem9To10) testObject).localMain(); // Need a type conversion here since there's no "localMain" method in class "Object".
+			
+        return;
 	}
 }
 
@@ -33,31 +32,31 @@ public class Chapter4Problems {
 class Problem1To4 {
 
 	// Local main function
-	public static void localMain() {
+    public static void localMain() {
 
-	    System.out.println("*****Starting Problem 3*****");
-	    Problem1Class[] problem1ClassObjects = new Problem1Class[2];
-		System.out.println("*****Finishing Problem 3*****");
-		System.out.println("*****Starting Problem 4*****");
-		problem1ClassObjects = new Problem1Class[] { 
-			new Problem1Class(), 
-			new Problem1Class("Print me!") 
-		};
-		System.out.println("*****Finishing Problem 4*****");
+        System.out.println("*****Starting Problem 3*****");
+        Problem1Class[] problem1ClassObjects = new Problem1Class[2];
+        System.out.println("*****Finishing Problem 3*****");
+        System.out.println("*****Starting Problem 4*****");
+        problem1ClassObjects = new Problem1Class[] { 
+            new Problem1Class(), 
+		    new Problem1Class("Print me!") 
+        };
+        System.out.println("*****Finishing Problem 4*****");
 
-		return;
-	}
+        return;
+    }
 }
 
 class Problem1Class {
 
-	Problem1Class() {
-		System.out.println("[Problem1Class] Printing something :D");
-	}
+    Problem1Class() {
+        System.out.println("[Problem1Class] Printing something :D");
+    }
 
-	Problem1Class(String inputMessage) {
-		System.out.println("[Problem1Class] Printing input message:" + inputMessage);
-	}
+    Problem1Class(String inputMessage) {
+        System.out.println("[Problem1Class] Printing input message:" + inputMessage);
+    }
 }
 
 /*
