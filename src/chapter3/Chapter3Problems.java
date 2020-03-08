@@ -1,7 +1,9 @@
-/* Selected examples for Chapter 3 for "Thinking in Java (2nd Edition)".
+/* *
+ * Selected examples for Chapter 3 for "Thinking in Java (2nd Edition)".
  * Codes originally created by Bruce Eckel, re-written by ywen.
  * Feb 2020.
  * */
+
 package chapter3;
 
 import java.util.*;

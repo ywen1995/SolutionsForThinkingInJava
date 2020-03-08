@@ -1,4 +1,5 @@
-/* Practice for Chapter 2, Problem 9 for "Thinking in Java (2nd Edition)".
+/* *
+ * Practice for Chapter 2, Problem 9 for "Thinking in Java (2nd Edition)".
  * Codes created by ywen.
  * Feb 2020.
  * */
