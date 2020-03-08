@@ -1,6 +1,6 @@
 /* *
- * Selected examples for Chapter 3 for "Thinking in Java (2nd Edition)".
- * Codes originally created by Bruce Eckel, re-written by ywen.
+ * Practices for Chapter 3 for "Thinking in Java (2nd Edition)".
+ * Codes created by ywen.
  * Feb 2020.
  * */
 
